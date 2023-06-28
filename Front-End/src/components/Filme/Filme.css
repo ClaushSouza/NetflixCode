@@ -1,0 +1,36 @@
+.filme-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.filme-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.filme-item {
+  margin: 20px;
+  text-align: center;
+  height: 300px;
+}
+
+.filme-imagem {
+  max-width: 100%;
+  height: auto;
+}
+
+.filme-video {
+  width: 100%;
+  height: 100%;
+}
+
+.filme-titulo {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}

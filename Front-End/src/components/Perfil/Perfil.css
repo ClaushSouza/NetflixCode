@@ -1,0 +1,71 @@
+.perfil-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #141414;
+}
+
+.perfil-title {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.perfil-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil-avatar img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.perfil-avatar img.selected {
+  border: 3px solid #e50914;
+}
+
+.adicionar-perfil-button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #000000;
+  cursor: pointer;
+  margin: 0 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.adicionar-perfil-button:hover {
+  transform: scale(1.2);
+  background-color: #e50914;
+  color: #ffffff;
+}
+
+.gerenciar-perfis-button {
+  background-color: transparent;
+  border: 1px solid grey;
+  color: grey;
+  cursor: pointer;
+  display: block;
+  font-size: 1.2vw;
+  letter-spacing: 2px;
+  margin: 2em 0 1em;
+  padding: 0.5em 1.5em;
+}
+
+.gerenciar-perfis-button:hover {
+  background-color: #aaa;
+}
